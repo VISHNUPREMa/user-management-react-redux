@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    background-color: #F8F4E1;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+    width: 360px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-top: -30px;
+    color: #402409;
+    text-align: center;
+}
+
+.input-group {
+    margin-left: -70px;
+    margin-bottom: 20px;
+    width: 200%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #543310;
+    outline: none;
+}
+
+button {
+    margin-left: -60px;
+    margin-top: 30px;
+    width: 200%;
+    padding: 10px;
+    background-color: #402409;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #402409;
+}
+
+button:focus {
+    outline: none;
+}
+#account-change{
+    color: #402409;
+}
+
+#signup-span{
+    cursor: pointer;
+}
+
